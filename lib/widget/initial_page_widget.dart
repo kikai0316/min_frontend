@@ -1,15 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:sup_frontend/component/app_component.dart';
-import 'package:sup_frontend/component/button_component.dart';
-import 'package:sup_frontend/component/image_component.dart';
-import 'package:sup_frontend/component/widget_component.dart';
-import 'package:sup_frontend/constant/app_constant.dart';
-import 'package:sup_frontend/constant/color_constant.dart';
+import 'package:minmin_frontend/component/app_component.dart';
+import 'package:minmin_frontend/component/button_component.dart';
+import 'package:minmin_frontend/component/image_component.dart';
+import 'package:minmin_frontend/component/widget_component.dart';
+import 'package:minmin_frontend/constant/app_constant.dart';
+import 'package:minmin_frontend/constant/color_constant.dart';
 
 //ボトムナビゲーターのボックス
-Widget navigationBarWidget(BuildContext context,
-    {required List<Widget> children,}) {
+Widget navigationBarWidget(
+  BuildContext context, {
+  required List<Widget> children,
+}) {
   final safeAreaHeight = safeHeight(context);
   return nContainer(
     height: safeAreaHeight * 0.11,

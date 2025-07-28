@@ -1,4 +1,4 @@
-# sup_frontend
+# minmin_frontend
 
 A new Flutter project.
 

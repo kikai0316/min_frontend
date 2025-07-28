@@ -1,4 +1,4 @@
-package com.example.sup_frontend
+package com.islez.minmin
 
 import io.flutter.embedding.android.FlutterActivity
 
