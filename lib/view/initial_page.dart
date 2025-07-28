@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:sup_frontend/constant/color_constant.dart';
-import 'package:sup_frontend/view/account_page.dart';
-import 'package:sup_frontend/view/home_page.dart';
-import 'package:sup_frontend/widget/initial_page_widget.dart';
+import 'package:minmin_frontend/constant/color_constant.dart';
+import 'package:minmin_frontend/view/account_page.dart';
+import 'package:minmin_frontend/view/home_page.dart';
+import 'package:minmin_frontend/widget/initial_page_widget.dart';
 
 class InitialPage extends HookConsumerWidget {
   const InitialPage({
